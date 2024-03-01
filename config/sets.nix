@@ -83,6 +83,10 @@
       guicursor = [
         "n-v-c:block" # Normal, visual, command-line: block cursor
         "i-ci-ve:ver25" # Insert, command-line insert, visual-exclude: vertical bar with 25% width
+        "r-cr:hor20" # Replace, command-line replace: horizontal bar cursor with 20% height
+        "o:hor50" # Operator-pending: horizontal bar cursor with 50% height
+        "a:blinkwait700-blinkoff400-blinkon-250-Cursor/lCursor" # All mdoes: blinking settings
+        "sm:block-blinkwait175-blonkoff150-blinkon175" # Stopwatch: block cursor with specific blink settings
       ];
     };
   };
