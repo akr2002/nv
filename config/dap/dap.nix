@@ -15,7 +15,7 @@
         texthl = "DapLogPoint";
       };
     };
-    configurations = {
+    extensions = {
       dap-python = {
         enable = true;
       };
