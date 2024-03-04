@@ -245,7 +245,7 @@
       key = "J";
       action = "mzJ`z";
       options = {
-        search = true;
+        silent = true;
         desc = "Allow cursor to stay in the same place after appending to current line";
       };
     }
@@ -279,8 +279,8 @@
     {
       mode = "n";
       key = "k";
-      action._raw = "
-        [[(v.vount > 1 ? 'm`' . v:count : 'g') . 'k']]
+      action.__raw = "
+        [[(v:count > 1 ? 'm`' . v:count : 'g') . 'k']]
       ";
       options = {
         expr = true;
