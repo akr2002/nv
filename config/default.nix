@@ -9,9 +9,14 @@
     ./completion/cmp.nix
     ./completion/lspkind.nix
 
-    ./sets.nix
     ./dap/dap.nix
+
+    ./filetrees/neo-tree.nix
+
     ./keymaps.nix
+
+    ./sets.nix
+
     ./ui/nvim-notify.nix
   ];
 }
