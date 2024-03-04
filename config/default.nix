@@ -19,6 +19,7 @@
     ./languages/treesitter/treesitter.nix
     ./languages/treesitter/ts-autotag.nix
     ./languages/treesitter/treesitter-context-commentstring.nix
+    ./languages/nvim-jdtls.nix
 
     ./dap/dap.nix
 
