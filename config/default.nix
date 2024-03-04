@@ -9,6 +9,8 @@
     ./completion/cmp.nix
     ./completion/lspkind.nix
 
+    ./git/diffview.nix
+
     ./dap/dap.nix
 
     ./filetrees/neo-tree.nix
