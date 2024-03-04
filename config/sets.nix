@@ -97,7 +97,7 @@
       cmdheight = 2;
 
       # Showmode
-      showmode = true; # TODO change to false
+      showmode = false; # TODO change to false
 
       # Maximum number of items to show in popup menu (0 - use available screen space)
       pumheight = 0;
