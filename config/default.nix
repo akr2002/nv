@@ -7,6 +7,7 @@
     ./colorschemes/rose-pine.nix
 
     ./completion/cmp.nix
+    ./completion/lspkind.nix
 
     ./sets.nix
     ./dap/dap.nix
