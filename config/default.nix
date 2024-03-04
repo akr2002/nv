@@ -14,6 +14,10 @@
     ./git/lazygit.nix
     ./git/neogit.nix
 
+    ./languages/treesitter/treesitter-context.nix
+    ./languages/treesitter/treesitter-textobjects.nix
+    ./languages/treesitter/treesitter.nix
+
     ./dap/dap.nix
 
     ./filetrees/neo-tree.nix
