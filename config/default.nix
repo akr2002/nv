@@ -12,6 +12,7 @@
     ./git/diffview.nix
     ./git/gitsigns.nix
     ./git/lazygit.nix
+    ./git/neogit.nix
 
     ./dap/dap.nix
 
