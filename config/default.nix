@@ -6,6 +6,8 @@
     ./colorschemes/catppuccin.nix
     ./colorschemes/rose-pine.nix
 
+    ./completion/cmp.nix
+
     ./sets.nix
     ./dap/dap.nix
     ./keymaps.nix
