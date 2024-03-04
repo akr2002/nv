@@ -17,6 +17,8 @@
     ./languages/treesitter/treesitter-context.nix
     ./languages/treesitter/treesitter-textobjects.nix
     ./languages/treesitter/treesitter.nix
+    ./languages/treesitter/ts-autotag.nix
+    ./languages/treesitter/treesitter-context-commentstring.nix
 
     ./dap/dap.nix
 
