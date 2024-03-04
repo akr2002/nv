@@ -10,6 +10,7 @@
     ./completion/lspkind.nix
 
     ./git/diffview.nix
+    ./git/gitsigns.nix
 
     ./dap/dap.nix
 
