@@ -3,6 +3,8 @@
     ./bufferlines/bufferlines.nix
 
     ./colorschemes/base16.nix
+    ./colorschemes/catppuccin.nix
+
     ./sets.nix
     ./dap/dap.nix
     ./keymaps.nix
