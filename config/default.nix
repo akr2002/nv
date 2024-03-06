@@ -60,5 +60,6 @@
     ./utils/markdown-preview.nix
     ./utils/mini.nix
     ./utils/neodev.nix
+    ./utils/neotest.nix
   ];
 }
