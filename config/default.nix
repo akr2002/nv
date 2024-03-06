@@ -43,6 +43,8 @@
     ./statusline/lualine.nix
     ./statusline/staline.nix
 
+    ./telescope/telescope.nix
+
     ./ui/nvim-notify.nix
   ];
 }
