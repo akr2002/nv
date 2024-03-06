@@ -25,6 +25,10 @@
     ./lsp/conform.nix
     ./lsp/fidget.nix
     ./lsp/lsp.nix
+    ./lsp/lspsaga.nix
+    ./lsp/trouble.nix
+
+    ./none-ls/none-ls.nix
 
     ./dap/dap.nix
 
