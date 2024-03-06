@@ -61,5 +61,6 @@
     ./utils/mini.nix
     ./utils/neodev.nix
     ./utils/neotest.nix
+    ./utils/nvim-autopairs.nix
   ];
 }
