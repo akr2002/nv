@@ -45,6 +45,7 @@
 
     ./telescope/telescope.nix
 
+    ./ui/alpha.nix
     ./ui/nvim-notify.nix
   ];
 }
