@@ -64,5 +64,6 @@
     ./utils/nvim-autopairs.nix
     ./utils/nvim-colorizer.nix
     ./utils/nvim-surround.nix
+    ./utils/oil.nix
   ];
 }
