@@ -23,6 +23,7 @@
     ./languages/nvim-lint.nix
 
     ./lsp/conform.nix
+    ./lsp/fidget.nix
 
     ./dap/dap.nix
 
