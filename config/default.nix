@@ -24,6 +24,7 @@
 
     ./lsp/conform.nix
     ./lsp/fidget.nix
+    ./lsp/lsp.nix
 
     ./dap/dap.nix
 
