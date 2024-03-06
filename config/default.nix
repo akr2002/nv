@@ -54,5 +54,6 @@
 
     ./utils/better-escape.nix
     ./utils/flash.nix
+    ./utils/hardtime.nix
   ];
 }
