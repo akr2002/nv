@@ -67,5 +67,6 @@
     ./utils/oil.nix
     ./utils/persistence.nix
     ./utils/plenary.nix
+    ./utils/project-nvim.nix
   ];
 }
