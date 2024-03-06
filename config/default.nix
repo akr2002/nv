@@ -22,6 +22,8 @@
     ./languages/nvim-jdtls.nix
     ./languages/nvim-lint.nix
 
+    ./lsp/conform.nix
+
     ./dap/dap.nix
 
     ./filetrees/neo-tree.nix
