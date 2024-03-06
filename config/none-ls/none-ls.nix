@@ -1,7 +1,7 @@
 {
   plugins.none-ls = {
-    enable = true;
-    enableLspFormat = true;
+    enable = false;
+    enableLspFormat = false;
     updateInInsert = false;
     onAttach = ''
       function(client, bufnr)

@@ -9,10 +9,16 @@
     ./completion/cmp.nix
     ./completion/lspkind.nix
 
+    ./dap/dap.nix
+
+    ./filetrees/neo-tree.nix
+
     ./git/diffview.nix
     ./git/gitsigns.nix
     ./git/lazygit.nix
     ./git/neogit.nix
+
+    ./keymaps.nix
 
     ./languages/treesitter/treesitter-context.nix
     ./languages/treesitter/treesitter-textobjects.nix
@@ -30,13 +36,9 @@
 
     ./none-ls/none-ls.nix
 
-    ./dap/dap.nix
-
-    ./filetrees/neo-tree.nix
-
-    ./keymaps.nix
-
     ./sets.nix
+
+    ./snippets/luasnip.nix
 
     ./ui/nvim-notify.nix
   ];
