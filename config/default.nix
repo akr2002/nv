@@ -59,7 +59,6 @@
     ./utils/illuminate.nix
     ./utils/markdown-preview.nix
     ./utils/mini.nix
-    ./utils/neocord.nix
-
+    ./utils/neodev.nix
   ];
 }
