@@ -58,5 +58,6 @@
     ./utils/harpoon.nix
     ./utils/illuminate.nix
     ./utils/markdown-preview.nix
+    ./utils/mini.nix
   ];
 }
