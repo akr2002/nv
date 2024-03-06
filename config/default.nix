@@ -65,5 +65,6 @@
     ./utils/nvim-colorizer.nix
     ./utils/nvim-surround.nix
     ./utils/oil.nix
+    ./utils/persistence.nix
   ];
 }
