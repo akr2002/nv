@@ -41,6 +41,7 @@
     ./snippets/luasnip.nix
 
     ./statusline/lualine.nix
+    ./statusline/staline.nix
 
     ./ui/nvim-notify.nix
   ];
