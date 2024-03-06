@@ -51,5 +51,8 @@
     ./ui/noice.nix
     ./ui/nui.nix
     ./ui/nvim-notify.nix
+
+    ./utils/better-escape.nix
+    ./utils/flash.nix
   ];
 }
