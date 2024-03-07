@@ -73,5 +73,6 @@
     ./utils/todo-comments.nix
     ./utils/toggleterm.nix
     ./utils/ultimate-autopair.nix
+    ./utils/undotree.nix
   ];
 }
