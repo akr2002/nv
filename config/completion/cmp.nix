@@ -48,7 +48,7 @@
 
       mapping = {
         "<Tab>" = {
-          modes = ["i" "s"];
+          modes = ["v" "s"];
           action = ''
              function(fallback)
              	if cmp.visible() then
@@ -62,7 +62,7 @@
           '';
         };
         "<S-Tab>" = {
-          modes = ["i" "s"];
+          modes = ["v" "s"];
           action = ''
                  function(fallback)
             	if cmp.visible() then
