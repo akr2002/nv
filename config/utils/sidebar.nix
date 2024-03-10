@@ -21,7 +21,7 @@
         initial_width = 32,
         hide_statusline = false,
         update_interval = 1000,
-        sections = { "git", "files", "diagnostics" },
+        sections = { "git", "symbols", "files", "diagnostics", "todos", "buffers" },
         section_separator = {"", "-----", ""},
         section_title_separator = {""},
         containers = {
