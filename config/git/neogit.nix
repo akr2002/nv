@@ -7,7 +7,10 @@
     {
       mode = "n";
       key = "<leader>gg";
-      action = "<cmd>Neogit<cr>";
+      action = "<cmd>Neogit kind=floating<cr>";
+      options = {
+        desc = "Toggle Neogit";
+      };
     }
   ];
 }
