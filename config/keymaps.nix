@@ -52,7 +52,7 @@
     {
       mode = ["n" "v"];
       key = "<leader>t";
-      action = "+test";
+      action = "";
     }
 
     # Tabs
