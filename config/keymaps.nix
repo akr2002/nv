@@ -50,9 +50,44 @@
       action = "+code";
     }
     {
-      mode = ["n" "v"];
+      mode = "n";
       key = "<leader>t";
-      action = "";
+      action = "<cmd>ToggleTerm<cr>";
+      options = {
+        desc = "Toggle terminal";
+      };
+    }
+    {
+      mode = "n";
+      key = "<leader>tf";
+      action = "<cmd>ToggleTerm direction=float<cr>";
+      options = {
+        desc = "Toggle floating terminal";
+      };
+    }
+    {
+      mode = "n";
+      key = "<leader>th";
+      action = "<cmd>ToggleTerm<cr>";
+      options = {
+        desc = "Toggle horizontal terminal";
+      };
+    }
+    {
+      mode = "n";
+      key = "<leader>tv";
+      action = "<cmd>ToggleTerm direction=vertical<cr>";
+      options = {
+        desc = "Toggle vertical terminal";
+      };
+    }
+    {
+      mode = "n";
+      key = "<leader>tt";
+      action = "<cmd>ToggleTerm direction=tab<cr>";
+      options = {
+        desc = "Open terminal in a new tab";
+      };
     }
 
     # Tabs
