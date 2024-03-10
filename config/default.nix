@@ -36,6 +36,8 @@
 
     ./none-ls/none-ls.nix
 
+    ./ollama/ollama.nix
+
     ./sets.nix
 
     ./snippets/luasnip.nix
