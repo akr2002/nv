@@ -1,5 +1,9 @@
-{ pkgs, lib, config, ... }:
 {
+  pkgs,
+  lib,
+  config,
+  ...
+}: {
   config = {
     options = {
       # Relative line numbers
@@ -42,9 +46,8 @@
       # Decrease update time
       updatetime = 50;
 
-
       # Set completeopt
-      completeopt = [ "menuone" "noselect" "noinsert" ];
+      completeopt = ["menuone" "noselect" "noinsert"];
 
       # Persistent undo history
       swapfile = false;
@@ -77,7 +80,7 @@
 
       # Encoding
       encoding = "utf-8";
-      fileencoding =  "utf-8";
+      fileencoding = "utf-8";
 
       # Cursor options
       guicursor = [
@@ -92,7 +95,7 @@
       # Chars list
       list = true; # Show invisible characters
       listchars = "eol:↲,tab:|->,lead:·,space: ,trail:•,extends:→,precedes:←,nbsp:␣";
-      
+
       # Space in neovim command line to display messages
       cmdheight = 2;
 
@@ -130,6 +133,8 @@
         -- Neovide Fonts
         o.guifont = "JetBrainsMono Nerd Font"
       end
+
+      vim.loader.enable()
     '';
   };
 }
