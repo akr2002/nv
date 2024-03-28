@@ -48,7 +48,7 @@
 
       mapping = {
         "<Tab>" = {
-          modes = ["v" "s"];
+          modes = ["i" "v" "s"];
           action = ''
              function(fallback)
              	if cmp.visible() then
@@ -62,7 +62,7 @@
           '';
         };
         "<S-Tab>" = {
-          modes = ["v" "s"];
+          modes = ["i" "v" "s"];
           action = ''
                  function(fallback)
             	if cmp.visible() then
@@ -164,4 +164,3 @@
               }),
           })  '';
 }
-
