@@ -1,9 +1,16 @@
-{ config, pkgs, host, user, ... }:
 {
+  config,
+  pkgs,
+  host,
+  user,
+  ...
+}: {
   plugins.undotree = {
     enable = true;
-    autoOpenDiff = true;
-    settings.FocusOnToggle = true;
+    settings = {
+      autoOpenDiff = true;
+      FocusOnToggle = true;
+    };
   };
   keymaps = [
     {
