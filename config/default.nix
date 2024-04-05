@@ -9,7 +9,7 @@
     ./completion/cmp.nix
     ./completion/lspkind.nix
 
-    ./dap/dap.nix
+    #./dap/dap.nix
 
     ./filetrees/neo-tree.nix
 
