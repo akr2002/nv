@@ -2,7 +2,7 @@
   plugins.ollama = {
     enable = true;
     model = "tinyllama";
-    url = "http://127.0.0.11435";
+    url = "http://127.0.0.1:11434";
   };
 
   keymaps = [
